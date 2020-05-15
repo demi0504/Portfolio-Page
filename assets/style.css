@@ -39,3 +39,16 @@ p {
     background-color: #708090;
     border-color: transparent;
 }
+/*Footer styling*/
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: 0;
+}
