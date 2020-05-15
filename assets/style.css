@@ -39,6 +39,22 @@ p {
     background-color: #708090;
     border-color: transparent;
 }
+/*Portfolio Styling*/
+.noBull {
+    background-color: white;
+    border-radius: 25px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+}
+.portfolio-heading {
+    background-color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+.jumbotron-portfolio {
+    margin-top: 30px;
+}
 /*Footer styling*/
 html,
 body {
