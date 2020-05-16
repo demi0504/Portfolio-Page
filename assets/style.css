@@ -35,6 +35,10 @@ p {
     padding: 20px;
 }
 
+.jumbotron-fluid {
+    margin-bottom: 0;
+}
+
 #submit-btn {
     background-color: #708090;
     border-color: transparent;
@@ -51,9 +55,16 @@ p {
 .portfolio-heading {
     background-color: white;
     font-family: 'Alegreya Sans SC', sans-serif;
+    
 }
 .jumbotron-portfolio {
     margin-top: 30px;
+    margin-bottom: 0;
+}
+.portfolio-container {
+    
+    background-color: white;
+    border-radius: 25px;
 }
 /*Footer styling*/
 
