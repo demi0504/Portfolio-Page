@@ -40,6 +40,7 @@ p {
 }
 
 #submit-btn {
+
     background-color: #708090;
     border-color: transparent;
 }
@@ -61,11 +62,7 @@ p {
     margin-top: 30px;
     margin-bottom: 0;
 }
-.portfolio-container {
-    
-    background-color: white;
-    border-radius: 25px;
-}
+
 /*Footer styling*/
 
 
