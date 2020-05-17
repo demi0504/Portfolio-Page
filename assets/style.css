@@ -22,6 +22,7 @@ p {
     text-align: center;
     color: gray;
 }
+
 /*Contact form styling*/
 .contactSection {
     background-color: transparent;
@@ -40,10 +41,10 @@ p {
 }
 
 #submit-btn {
-
     background-color: #708090;
     border-color: transparent;
 }
+
 /*Portfolio Styling*/
 .noBull {
     background-color: white;
@@ -53,19 +54,27 @@ p {
     padding: 20px;
     text-align: center;
 }
+
+.fa-cocktail {
+    font-size: 30px;
+}
+
+.fa-code {
+    font-size: 30px;
+}
+
 .portfolio-heading {
     background-color: white;
     font-family: 'Alegreya Sans SC', sans-serif;
     
 }
+
 .jumbotron-portfolio {
     margin-top: 30px;
     margin-bottom: 0;
 }
 
 /*Footer styling*/
-
-
 .fa {
     font-size: 20px;
     margin: 5px 2px
