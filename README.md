@@ -7,3 +7,5 @@ I really enjoyed creating this page and drew a lot of inspiration from some real
 Throughout my process creating this site, I've definitely gained confidence `commit`ing and `push`ing to GitHub which was something I was struggling with initially. I'm feeling relatively confident in my use of Bootstrap and its grid system. Initially I had some difficulties with the layout, but ultimately I'm pretty happy with where its at now!
 ## Deployed Page
 https://demi0504.github.io/Portfolio-Page/
+
+![image](https://user-images.githubusercontent.com/59584773/82737302-cb4d9000-9cf5-11ea-8b4d-7691a8e581e1.png)
