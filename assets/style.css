@@ -1,6 +1,6 @@
 /*Homepage styling*/
 .jumbotron-image {
-    background-image: url('/Images/bnbdemi.jpg');
+    background-image: url('../images/bnbdemi.jpg');
     background-position: center;
     color: white;
     height: 600px;
