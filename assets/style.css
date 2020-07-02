@@ -46,6 +46,9 @@ p {
 }
 
 /*Portfolio Styling*/
+.btn-dark {
+    margin: 10px;
+}
 .noBull {
     background-color: white;
     border-radius: 25px;
