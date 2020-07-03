@@ -28,11 +28,16 @@ p {
 }
 
 .contact {
-    background-color: white;
     border-radius: 25px;
+    font-family: 'Alegreya Sans SC', sans-serif;
     margin-top: 30px;
     margin-bottom: 30px;
     padding: 20px;
+}
+
+.contactText {
+    padding-bottom: 20px;
+    text-align: center;
 }
 
 .jumbotron-fluid {
@@ -42,6 +47,10 @@ p {
 #submit-btn {
     background-color: #708090;
     border-color: transparent;
+}
+
+#submit-btn:hover {
+    background-color: #696969;
 }
 
 /*Portfolio Styling*/
@@ -65,6 +74,11 @@ p {
 
 .fa-code {
     font-size: 30px;
+}
+
+img:hover {
+    opacity: 0.3;
+    transition: .5s ease;
 }
 
 .portfolio-heading {
