@@ -54,10 +54,37 @@ p {
 }
 
 /*Portfolio Styling*/
+.arrow-color {
+    filter: invert(100%);
+}
+
 .card {
     margin: auto;
     border: none;
 }
+
+#carousel-container {
+    background: white;
+    border-radius: 25px;
+    padding-top: 20px;
+}
+
+.carousel-img {
+    height: 400px;
+    width: 550px; 
+    margin: auto;
+}
+
+.carousel-inner {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.carousel-item {
+    height: 35rem;
+    position: relative;
+}
+
 .noBull {
     background-color: white;
     border-radius: 25px;
@@ -82,7 +109,7 @@ img:hover {
 }
 
 .portfolio-heading {
-    background-color: white;
+    text-align: center;
     font-family: 'Alegreya Sans SC', sans-serif;
     
 }

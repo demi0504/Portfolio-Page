@@ -63,7 +63,7 @@
             <ul class="noBull">
               <li><i class="fas fa-code"></i></li>
               <li><h1 class="portfolio-heading">Developer</h1></li>
-              <li><h3>Languages I Speak:</h3></li>
+              <li><h3>Languages:</h3></li>
               <li>CSS</li>
               <li>HTML</li>
               <li>JavaScript</li>
@@ -79,7 +79,7 @@
         </div>
       </div>
       <!--project container-->
-      <div class="container noBull">
+      <!-- <div class="container noBull">
         <header><h1>Projects</h1></header>
         <div class="row align-items-center">
           <div class="col-lg-4">
@@ -89,6 +89,8 @@
               </a>
               <div class="card-body">
                 <h5 class="card-title">Quarantine Bar</h5>
+                  <li>Virtual bar that uses CocktailDB to generate random and/or specific cocktail recipes for users to make at home.</li>
+                  <li>Uses JavaScript, HTML, CSS, Bulma, jQuery, day.js, Giphy API and CocktailDB.</li>
                 <a href="https://github.com/BillyJHicksJr/qaurantinebar" target="_blank">Check Out the Code</a>
               </div>
             </div>
@@ -122,6 +124,8 @@
               </a>
               <div class="card-body">
                 <h5 class="card-title">AirBob</h5>
+                  <li>MERN stack application that allows pet owners to search for and book reservations at dog boarding facilities.</li>
+                  <li>Uses MongoDB, Express, React and Node.js.</li>
                 <a href="https://github.com/demi0504/Project-3" target="_blank">Check Out the Code</a>
               </div>
             </div>
@@ -149,8 +153,41 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!--end project container-->
+      <!--begin carousel attempt-->
+      <div id="carousel-container" class="container">
+        <header><h1 class="portfolio-heading">Projects</h1></header>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://billyjhicksjr.github.io/quarantinebar/" target="_blank">
+                  <img class="d-block carousel-img" src="imagess/Screenshot (16).png" alt="screenshot of quarantine bar homepage">
+                </a>
+                <h5>Quarantine Bar</h5>
+                <p>Virtual bar that uses CocktailDB to generate random and/or specific cocktail recipes for users to make at home.</p>
+                <a href="https://github.com/BillyJHicksJr/qaurantinebar" class="btn btn-sm btn-outline-secondary" target="_blank">Check Out the Code</a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://stark-harbor-86952.herokuapp.com/" target="_blank">
+                  <img class="d-block carousel-img" src="imagess/airbob.png" alt="screenshot of airbob homepage">
+                </a>
+                <h5>AirBob</h5>
+                <p>MERN stack application that allows pet owners to search for and book reservations at dog boarding facilities.</p>
+                <a href="https://github.com/demi0504/Project-3" class="btn btn-sm btn-outline-secondary" target="_blank">Check Out the Code</a>
+              </div>
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon arrow-color" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon arrow-color" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <!--end carousel attempt-->
       <!--begin resume section-->
       <div class="container noBull">
         <head><h1>Resume</h1></head>
@@ -171,14 +208,12 @@
       <div class="container text-center">
         <a href="https://github.com/demi0504" target="_blank" class="fa fa-github"></a>
         <a href="https://www.linkedin.com/in/demi-ripley-224759118/" target="_blank" class="fa fa-linkedin"></a>
-        <a href="https://www.facebook.com/demi.ann.14" target="_blank" class="fa fa-facebook"></a>
-        <a href="https://twitter.com/demiasinhalf" target="_blank" class="fa fa-twitter"></a>
-        <a href="https://www.instagram.com/demiasinhalf/?hl=en" target="_blank" class="fa fa-instagram"></a>
       </div>
     </footer>
     <!--End Footer section-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </body>
 </html>
